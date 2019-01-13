@@ -102,7 +102,7 @@ void setup() {
   #endif
 }
 
-void loop() {;
+void loop() {
   #ifdef _SERIAL_BR
     Serial.println();
     Serial.println("Waiting for client");
