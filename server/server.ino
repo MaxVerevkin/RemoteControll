@@ -69,8 +69,6 @@
 WiFiServer server(80);
 
 void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
-  
   //Initialize Serial
   #ifdef _SERIAL_BR
     Serial.begin(_SERIAL_BR);
@@ -104,9 +102,7 @@ void setup() {
   #endif
 }
 
-void loop() {
-  digitalWrite(LED_BUILTIN, v);
-  
+void loop() {;
   #ifdef _SERIAL_BR
     Serial.println();
     Serial.println("Waiting for client");
