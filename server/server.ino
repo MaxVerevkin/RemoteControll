@@ -7,11 +7,11 @@
 
 #include <ESP8266WiFi.h>
 
-//WiFi credits
+//WiFi creditals
 #define _SSID "**********"
 #define _PASS "**********"
 
-//Serial baud rate (comment #define to disable Serial) (LED_BUILTIN cant be uset at the same time as Serial)
+//Serial baud rate (comment #define to disable Serial) (LED_BUILTIN cant be used at the same time as Serial)
 #define _SERIAL_BR 9600
 
 //Main page content
