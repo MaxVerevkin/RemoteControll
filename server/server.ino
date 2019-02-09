@@ -65,7 +65,7 @@
   </body>\
 </html>"
 
-//Web server on potr 80
+//Web server on port 80
 WiFiServer server(80);
 
 void setup() {
